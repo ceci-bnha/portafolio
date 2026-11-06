@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portafolio | Cecilia Bustamante</title>
+	<link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+	<header class="cabecera">
+		<nav>
+			<ul class="menu">
+				<li><a href="#inicio" data-es="Inicio" data-en="Home" data-pt="Início">Inicio</a></li>
+				<li><a href="#sobre-mi" data-es="Sobre mí" data-en="About me" data-pt="Sobre mim">Sobre mí</a></li>
+				<li><a href="#habilidades" data-es="Habilidades" data-en="Skills" data-pt="Habilidades">Habilidades</a></li>
+				<li><a href="#certificados" data-es="Certificados" data-en="Certificates" data-pt="Certificados">Certificados</a></li>
+				<li><a href="#proyectos" data-es="Proyectos" data-en="Projects" data-pt="Projetos">Proyectos</a></li>
+				<li>
+					<div class="idioma">
+						<img src="iconos/icono-mundo.png" alt="" class="icono-chico icono-mono">
+						<select id="selector-idioma" class="selector-idioma" aria-label="Idioma">
+							<option value="es">ES</option>
+							<option value="en">EN</option>
+							<option value="pt">PT</option>
+						</select>
+					</div>
+				</li>
+				<li>
+					<button id="boton-tema" class="boton-tema" title="Modo claro / oscuro">☾</button>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="inicio" id="inicio">
+			<img src="imagenes/foto-perfil.jpg" alt="Foto de perfil" class="foto-perfil">
+
+			<div class="inicio-texto">
+				<h1 data-es="Hola, mi nombre es Cecilia Elizabeth Bustamante Solis y soy estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital." data-en="Hi, my name is Cecilia Elizabeth Bustamante Solis and I am a student of Engineering in Information Technologies and Digital Innovation." data-pt="Olá, meu nome é Cecilia Elizabeth Bustamante Solis e sou estudante de Engenharia em Tecnologias da Informação e Inovação Digital.">Hola, mi nombre es Cecilia Elizabeth Bustamante Solis y soy estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital.</h1>
+
+				<p data-es="Me interesa el desarrollo web y de software. Aquí encontrarás mi formación, mis habilidades, mis certificados y los proyectos en los que he trabajado." data-en="I am interested in web and software development. Here you will find my education, skills, certificates and the projects I have worked on." data-pt="Tenho interesse em desenvolvimento web e de software. Aqui você encontrará minha formação, minhas habilidades, meus certificados e os projetos em que trabalhei.">Me interesa el desarrollo web y de software. Aquí encontrarás mi formación, mis habilidades, mis certificados y los proyectos en los que he trabajado.</p>
+
+				<div class="botones-inicio">
+					<a href="documentos/cv.pdf" download class="boton" data-es="Descargar CV" data-en="Download CV" data-pt="Baixar CV">Descargar CV</a>
+
+					<a href="https://www.linkedin.com/in/cecilia-elizabeth-bustamante-solis-955294396/" target="_blank" class="boton-cuadrado">
+						<img src="iconos/icono-linkedin.png" alt="LinkedIn">
+					</a>
+					<a href="https://github.com/tu-usuario" target="_blank" class="boton-cuadrado">
+						<img src="iconos/icono-github.png" alt="GitHub">
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="seccion alterna" id="sobre-mi">
+			<div class="contenedor">
+				<h2 class="titulo-seccion" data-es="Sobre mí" data-en="About me" data-pt="Sobre mim">Sobre mí</h2>
+
+				<p class="texto-centrado" data-es="Me gusta aprender nuevas tecnologías y aplicarlas en proyectos reales, como sitios web y plataformas para pequeños negocios. Estoy reforzando mis conocimientos en programación, bases de datos y diseño de interfaces." data-en="I like learning new technologies and applying them in real projects, such as websites and platforms for small businesses. I am strengthening my knowledge of programming, databases and interface design." data-pt="Gosto de aprender novas tecnologias e aplicá-las em projetos reais, como sites e plataformas para pequenos negócios. Estou aprofundando meus conhecimentos em programação, bancos de dados e design de interfaces.">Me gusta aprender nuevas tecnologías y aplicarlas en proyectos reales, como sitios web y plataformas para pequeños negocios. Estoy reforzando mis conocimientos en programación, bases de datos y diseño de interfaces.</p>
+
+				<div class="tarjeta-formacion">
+					<h3>
+						<img src="iconos/icono-birrete.png" alt="" class="icono icono-mono">
+						<span data-es="Formación educativa" data-en="Education" data-pt="Formação acadêmica">Formación educativa</span>
+					</h3>
+					<ul>
+						<li data-es="Universidad Politécnica de Sinaloa — Ingeniería en Tecnologías de la Información e Innovación Digital (2025 - Actual)" data-en="Universidad Politécnica de Sinaloa — Engineering in Information Technologies and Digital Innovation (2025 - Present)" data-pt="Universidad Politécnica de Sinaloa — Engenharia em Tecnologias da Informação e Inovação Digital (2025 - Atual)">Universidad Politécnica de Sinaloa — Ingeniería en Tecnologías de la Información e Innovación Digital (2025 - Actual)</li>
+						<li data-es="Preparatoria Federal por Coop. “José Vasconcelos” — Físico-Matemático (2022 - 2025)" data-en="Preparatoria Federal por Coop. “José Vasconcelos” — Physics and Mathematics track (2022 - 2025)" data-pt="Preparatoria Federal por Coop. “José Vasconcelos” — Área de Física e Matemática (2022 - 2025)">Preparatoria Federal por Coop. “José Vasconcelos” — Físico-Matemático (2022 - 2025)</li>
+						<li data-es="American English Academy — Inglés B2" data-en="American English Academy — English B2" data-pt="American English Academy — Inglês B2">American English Academy — Inglés B2</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="seccion" id="habilidades">
+			<div class="contenedor">
+				<h2 class="titulo-seccion" data-es="Habilidades" data-en="Skills" data-pt="Habilidades">Habilidades</h2>
+
+				<div class="lista-habilidades">
+
+					<article class="habilidad">
+						<h3 class="html5">HTML5</h3>
+						<img src="iconos/icono-html5.png" alt="Logo de HTML5">
+						<p data-es="Desarrollo web" data-en="Web development" data-pt="Desenvolvimento web">Desarrollo web</p>
+					</article>
+
+					<article class="habilidad">
+						<h3 class="css3">CSS3</h3>
+						<img src="iconos/icono-css3.png" alt="Logo de CSS3" class="icono-reducido">
+						<p data-es="Desarrollo web" data-en="Web development" data-pt="Desenvolvimento web">Desarrollo web</p>
+					</article>
+
+					<article class="habilidad">
+						<h3 class="java">Java</h3>
+						<img src="iconos/icono-java.png" alt="Logo de Java">
+						<p data-es="Programación" data-en="Programming" data-pt="Programação">Programación</p>
+					</article>
+
+					<article class="habilidad">
+						<h3 class="cpp">C++</h3>
+						<img src="iconos/icono-cpp.png" alt="Logo de C++">
+						<p data-es="Programación" data-en="Programming" data-pt="Programação">Programación</p>
+					</article>
+
+					<article class="habilidad">
+						<h3 class="figma">Figma</h3>
+						<img src="iconos/icono-figma.png" alt="Logo de Figma">
+						<p data-es="Software" data-en="Software" data-pt="Software">Software</p>
+					</article>
+
+					<article class="habilidad">
+						<h3 class="netbeans">NetBeans</h3>
+						<img src="iconos/icono-netbeans.png" alt="Logo de NetBeans">
+						<p data-es="Software" data-en="Software" data-pt="Software">Software</p>
+					</article>
+
+					<article class="habilidad">
+						<h3 class="mysql">MySQL</h3>
+						<img src="iconos/icono-mysql.png" alt="Logo de MySQL">
+						<p data-es="Bases de datos" data-en="Databases" data-pt="Bancos de dados">Bases de datos</p>
+					</article>
+
+					<article class="habilidad">
+						<h3 class="vscode">VS Code</h3>
+						<img src="iconos/icono-vscode.png" alt="Logo de Visual Studio Code">
+						<p data-es="Software" data-en="Software" data-pt="Software">Software</p>
+					</article>
+
+					<article class="habilidad">
+						<h3 class="word">Word</h3>
+						<img src="iconos/icono-word.png" alt="Logo de Word">
+						<p data-es="Ofimática" data-en="Office suite" data-pt="Pacote Office">Ofimática</p>
+					</article>
+
+					<article class="habilidad">
+						<h3 class="excel">Excel</h3>
+						<img src="iconos/icono-excel.png" alt="Logo de Excel">
+						<p data-es="Ofimática" data-en="Office suite" data-pt="Pacote Office">Ofimática</p>
+					</article>
+
+					<article class="habilidad">
+						<h3 class="powerpoint">PowerPoint</h3>
+						<img src="iconos/icono-powerpoint.png" alt="Logo de PowerPoint">
+						<p data-es="Ofimática" data-en="Office suite" data-pt="Pacote Office">Ofimática</p>
+					</article>
+
+					<article class="habilidad">
+						<h3 class="spss">IBM SPSS</h3>
+						<img src="iconos/icono-spss.png" alt="Logo de IBM SPSS" class="icono-reducido">
+						<p data-es="Análisis estadístico" data-en="Statistical analysis" data-pt="Análise estatística">Análisis estadístico</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="seccion alterna" id="certificados">
+			<div class="contenedor">
+				<h2 class="titulo-seccion" data-es="Certificados" data-en="Certificates" data-pt="Certificados">Certificados</h2>
+
+				<div class="lista-certificados">
+
+					<article class="certificado">
+						<div class="logo-certificado">
+							<img src="imagenes/logo-fundacion-slim.png" alt="Logo de Fundación Carlos Slim" class="logo-slim">
+						</div>
+						<h3>Finder</h3>
+						<p data-es="Certificado otorgado por la Fundación Slim - Capacítate para el Empleo." data-en="Certificate awarded by Fundación Slim - Capacítate para el Empleo." data-pt="Certificado concedido pela Fundação Slim - Capacítate para el Empleo.">Certificado otorgado por la Fundación Slim - Capacítate para el Empleo.</p>
+						<a href="documentos/certificado-finder.pdf" target="_blank" class="boton boton-contorno">
+							<img src="iconos/icono-enlace.png" alt="" class="icono-chico icono-mono">
+							<span data-es="Ver certificado" data-en="View certificate" data-pt="Ver certificado">Ver certificado</span>
+						</a>
+					</article>
+
+					<article class="certificado">
+						<div class="logo-certificado">
+							<img src="imagenes/logo-cisco.png" alt="Logo de Cisco" class="logo-cisco">
+						</div>
+						<h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
+						<p data-es="Certificado otorgado por Cisco Networking Academy." data-en="Certificate awarded by Cisco Networking Academy." data-pt="Certificado concedido pela Cisco Networking Academy.">Certificado otorgado por Cisco Networking Academy.</p>
+						<a href="documentos/certificado-ccna.pdf" target="_blank" class="boton boton-contorno">
+							<img src="iconos/icono-enlace.png" alt="" class="icono-chico icono-mono">
+							<span data-es="Ver certificado" data-en="View certificate" data-pt="Ver certificado">Ver certificado</span>
+						</a>
+					</article>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="seccion" id="proyectos">
+			<div class="contenedor">
+				<h2 class="titulo-seccion" data-es="Proyectos" data-en="Projects" data-pt="Projetos">Proyectos</h2>
+
+				<article class="proyecto">
+					<img src="imagenes/proyecto-kairos.png" alt="Captura del proyecto Kairós">
+					<div class="proyecto-texto">
+						<h3>Kairós</h3>
+						<p data-es="Kairós es una plataforma web diseñada para que pequeños negocios en México autogestionen sus citas en línea, eliminando el uso de WhatsApp, libretas físicas y llamadas telefónicas." data-en="Kairós is a web platform designed so that small businesses in Mexico can manage their appointments online, replacing WhatsApp, paper notebooks and phone calls." data-pt="Kairós é uma plataforma web projetada para que pequenos negócios no México gerenciem seus agendamentos on-line, eliminando o uso de WhatsApp, cadernos físicos e ligações telefônicas.">Kairós es una plataforma web diseñada para que pequeños negocios en México autogestionen sus citas en línea, eliminando el uso de WhatsApp, libretas físicas y llamadas telefónicas.</p>
+						<p class="tecnologias" data-es="Tecnologías: por completar" data-en="Technologies: to be completed" data-pt="Tecnologias: a completar">Tecnologías: por completar</p>
+						<div class="botones-proyecto">
+							<a href="#" target="_blank" class="boton boton-contorno" data-es="Enlace" data-en="Link" data-pt="Link">Enlace</a>
+							<a href="#" target="_blank" class="boton" data-es="Repositorio" data-en="Repository" data-pt="Repositório">Repositorio</a>
+						</div>
+					</div>
+				</article>
+
+				<article class="proyecto inverso">
+					<img src="imagenes/proyecto-antojarete.png" alt="Captura del proyecto Antojarete">
+					<div class="proyecto-texto">
+						<h3>Antojarete</h3>
+						<p data-es="Antojarete es una tienda en línea de aretes artesanales con forma de antojitos mexicanos, con página de inicio, catálogo de productos y formulario de contacto." data-en="Antojarete is an online store of handmade earrings shaped like Mexican snacks, with a home page, a product catalog and a contact form." data-pt="Antojarete é uma loja virtual de brincos artesanais em forma de petiscos mexicanos, com página inicial, catálogo de produtos e formulário de contato.">Antojarete es una tienda en línea de aretes artesanales con forma de antojitos mexicanos, con página de inicio, catálogo de productos y formulario de contacto.</p>
+						<p class="tecnologias" data-es="Tecnologías: HTML, CSS" data-en="Technologies: HTML, CSS" data-pt="Tecnologias: HTML, CSS">Tecnologías: HTML, CSS</p>
+						<div class="botones-proyecto">
+							<a href="#" target="_blank" class="boton boton-contorno" data-es="Enlace" data-en="Link" data-pt="Link">Enlace</a>
+							<a href="#" target="_blank" class="boton" data-es="Repositorio" data-en="Repository" data-pt="Repositório">Repositorio</a>
+						</div>
+					</div>
+				</article>
+
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="pie">
+		<div class="pie-columnas">
+
+			<div class="pie-columna">
+				<h3 data-es="Navegación" data-en="Navigation" data-pt="Navegação">Navegación</h3>
+				<ul>
+					<li><a href="#sobre-mi" data-es="Sobre mí" data-en="About me" data-pt="Sobre mim">Sobre mí</a></li>
+					<li><a href="#habilidades" data-es="Habilidades" data-en="Skills" data-pt="Habilidades">Habilidades</a></li>
+					<li><a href="#certificados" data-es="Certificados" data-en="Certificates" data-pt="Certificados">Certificados</a></li>
+					<li><a href="#proyectos" data-es="Proyectos" data-en="Projects" data-pt="Projetos">Proyectos</a></li>
+				</ul>
+			</div>
+
+			<div class="pie-columna">
+				<h3 data-es="Información de contacto" data-en="Contact information" data-pt="Informações de contato">Información de contacto</h3>
+				<ul>
+					<li><a href="mailto:2025030385@upsin.edu.mx">2025030385@upsin.edu.mx</a></li>
+					<li><a href="https://github.com/tu-usuario" target="_blank">GitHub</a></li>
+					<li><a href="https://www.linkedin.com/in/cecilia-elizabeth-bustamante-solis-955294396/" target="_blank">LinkedIn</a></li>
+				</ul>
+			</div>
+
+			<div class="pie-columna">
+				<h3 data-es="Portafolio" data-en="Portfolio" data-pt="Portfólio">Portafolio</h3>
+				<ul>
+					<li><a href="documentos/cv.pdf" target="_blank" data-es="Ver CV" data-en="View CV" data-pt="Ver CV">Ver CV</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<hr class="pie-linea">
+
+		<p class="derechos" data-es="© 2026 Todos los derechos reservados por Cecilia Elizabeth Bustamante Solis." data-en="© 2026 All rights reserved by Cecilia Elizabeth Bustamante Solis." data-pt="© 2026 Todos os direitos reservados por Cecilia Elizabeth Bustamante Solis.">© 2026 Todos los derechos reservados por Cecilia Elizabeth Bustamante Solis.</p>
+	</footer>
+
+	<!-- ================= JAVASCRIPT (solo idioma y modo oscuro) ================= -->
+	<script>
+		// Guardamos en variables los dos elementos que vamos a usar
+		var selectorIdioma = document.getElementById("selector-idioma");
+		var botonTema = document.getElementById("boton-tema");
+
+		// ---------- Cambiar idioma ----------
+		// Cada texto tiene data-es, data-en y data-pt; aquí ponemos el que corresponde
+		function cambiarIdioma(idioma) {
+			var textos = document.querySelectorAll("[data-es]");
+
+			for (var i = 0; i < textos.length; i++) {
+				var texto = textos[i].getAttribute("data-" + idioma);
+
+				if (texto) {
+					textos[i].textContent = texto;
+				}
+			}
+
+			document.documentElement.lang = idioma;
+			selectorIdioma.value = idioma;
+			localStorage.setItem("idioma", idioma);
+		}
+
+		selectorIdioma.addEventListener("change", function () {
+			cambiarIdioma(selectorIdioma.value);
+		});
+
+		// ---------- Cambiar modo claro / oscuro ----------
+		// Solo agregamos o quitamos la clase "oscuro" del body; el CSS hace el resto
+		function cambiarTema(oscuro) {
+			if (oscuro) {
+				document.body.classList.add("oscuro");
+				botonTema.textContent = "☀";
+			} else {
+				document.body.classList.remove("oscuro");
+				botonTema.textContent = "☾";
+			}
+			localStorage.setItem("tema", oscuro ? "oscuro" : "claro");
+		}
+
+		botonTema.addEventListener("click", function () {
+			cambiarTema(!document.body.classList.contains("oscuro"));
+		});
+
+		// ---------- Al abrir la página, recordar lo que se eligió antes ----------
+		cambiarIdioma(localStorage.getItem("idioma") || "es");
+		cambiarTema(localStorage.getItem("tema") === "oscuro");
+	</script>
+
+</body>
+</html>
